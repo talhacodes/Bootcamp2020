@@ -24,7 +24,7 @@ jobs:
     - name: Installing node
       uses: actions/setup-node@v2beta
       with:
-        Node-version: 12
+        Node-version: 13
         
     # Runs a set of commands using the runners shell
     - name: Installing surge
