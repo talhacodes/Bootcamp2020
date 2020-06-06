@@ -30,4 +30,8 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: Deploying surge
+<<<<<<< HEAD
       run: surge ./home/talha/Documents/GitHub/Bootcamp2020/index.html green-building.surge.sh --token ${{ secrets.SURGE_TOKEN }} 
+=======
+      run: surge /home/talha/Documents/GitHub/Bootcamp2020/index.html green-building.surge.sh --token ${{ secrets.SURGE_TOKEN }} 
+>>>>>>> 568b27dda5e8b7d58ef6506e41a1b226e41c93e3
